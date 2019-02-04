@@ -1,5 +1,6 @@
 $("#container").on("click", function(){
     $(".card-container").toggleClass("flip");
+    setTimeout(function(){window.location.replace("../firework/index.html")}, 10000);
 });
 
 var retina = window.devicePixelRatio,
